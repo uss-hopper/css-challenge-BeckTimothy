@@ -61,6 +61,42 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
-
+/* contains whole page*/
+.sfooter-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+/*contains header content*/
+header div.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #333;
+}
+div.container > h1, div.container > em {
+	color: lime;
+	display: inline;
+}
+/*container for instructions/welcome to my page image and startrek lady image*/
+section div.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+/*container for isntructions and startrek lady*/
+.instructions-wrapper {
+	display: flex;
+	flex-direction: row;
+	border-width: 2px;
+	flex-basis: 50%;
+}
+.instructions-content {
+	flex-basis: 75%;
+}
+img {
+	display: inline-block;
+}
 
 
