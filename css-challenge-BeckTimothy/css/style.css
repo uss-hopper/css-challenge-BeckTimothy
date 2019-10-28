@@ -144,62 +144,45 @@ section:nth-child(4) table th{
 	padding: 10px;
 }
 
-
-
-
-
-/*container for isntructions and startrek lady
-.instructions-wrapper {
-	display: flex;
-	justify-content: space-around;
-	flex-direction: row;
-	border-width: 5px;
-	border-style: solid;
-	border-color: #000;
-	height: 20%;
-}*/
-/*.instructions-content {
-	display: flex;
-	flex-direction: column;
-
-}
-
-
-section.about-me {
-	display: block;
-	flex: none;
-	background-color: blue;
-}
-
-section.about-me > div.container {
-	display: block;
-	flex: none;
-}
-.container > img {
-	display: inline-block;
-	float: left;
-	flex: none;
-	align-self: center;
-	max-width: 35%;
-	border-color: #FFF;
-	border-width: 5px;
-	border-style: solid;
-}
-.about-me p {
-	color: white;
-	margin-left: 40%;
-	font-size: 0.75em;
-	font-family: monospace;
-}
-.about-me h2 {
-	font-size: 1.2em;
-	color: white;
-	margin-left: 40%;
-	font-family: monospace;
-}
-*/
-footer {
+/**
+contact form styles
+ */
+div.sfooter-content section:last-child {
 	background-color: #333333;
+}
+div.sfooter-content section:last-child .form-wrapper {
+	background-color: darkgreen;
+	color: lime;
+	padding: 2rem;
+}
+
+.form-wrapper input,
+.form-wrapper textarea {
+	display: block;
+	width: 30%;
+	padding: 8px;
+}
+.form-wrapper label {
+	display: block;
+	margin: 15px 0 5px 0;
+}
+.form-wrapper button {
+	margin: 15px 0 5px 0;
+	background-color: lime;
+	font-weight: bold;
+	border: none;
+	color: black;
+	text-align: center;
+	display: inline-block;
+	padding: 10px 30px;
+	font-size: 1rem;
+}
+/**
+footer styles
+ */
+
+footer {
+	background-color: #000;
 }
 
 h4 {
