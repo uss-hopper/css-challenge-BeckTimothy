@@ -155,5 +155,10 @@ section.about-me > div.container {
 }
 
 footer {
-	
+	background-color: #333333;
+}
+
+h4 {
+	color: white;
+	text-align: center;
 }
