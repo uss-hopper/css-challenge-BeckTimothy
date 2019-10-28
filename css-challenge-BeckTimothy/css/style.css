@@ -81,13 +81,41 @@ header h1 {
 	display: inline-block;
 	margin-right: 2rem;
 }
-/*container for instructions/welcome to my page image and startrek lady image*/
+
+/**
+Welcome area styles
+ */
+img[alt="welcome to my homepage"] {
+	display: block;
+	margin: 0 auto 2rem;
+}
+
+.instructions-wrapper {
+	display: flex;
+	align-items: flex-start;
+	border: 3px solid black;
+	padding: 20px;
+}
+
+.instructions-wrapper img {
+	width: 250px;
+}
+
+.instructions-content {
+	flex: 1;
+	padding-right: 2rem;
+}
+
+.instructions-content h2 {
+	margin-top: 0;
+}
+/*container for welcome to my page image and startrek lady image*/
 section div.container {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-/*container for isntructions and startrek lady*/
+/*container for isntructions and startrek lady
 .instructions-wrapper {
 	display: flex;
 	justify-content: space-around;
@@ -96,21 +124,13 @@ section div.container {
 	border-style: solid;
 	border-color: #000;
 	height: 20%;
-}
+}*/
 .instructions-content {
 	display: flex;
 	flex-direction: column;
 
 }
 
-.instructions-wrapper img {
-	max-width: 16%;
-	align-self: center;
-}
-
-.instructions-wrapper .clearfix {
-	order: -1;
-}
 
 section.about-me {
 	display: block;
